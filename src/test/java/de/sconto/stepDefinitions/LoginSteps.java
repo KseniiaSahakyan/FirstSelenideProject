@@ -55,6 +55,7 @@ public class LoginSteps {
 
     @And("User navigates to product category")
     public void navigate_to_product_category() {
+        home = Selenide.page(HomePage.class);
         betten = Selenide.page(BettenPage.class);
         betten.clickOnBetten();
     }

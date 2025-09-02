@@ -8,6 +8,7 @@ Feature: Login
     And User clicks on User status
     Then User verifies his name is displayed
 
+    @item
   Scenario: Successful add item to cart
     Given User is on HomePage
     When User clicks on Login icon
